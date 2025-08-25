@@ -1,0 +1,22 @@
+# Choose ONE of the TensorFlow options below:
+
+# Apple Silicon (GPU via Metal)
+tensorflow-macos==2.12.0
+tensorflow-metal==0.8.0
+
+# Intel macOS / generic CPU (comment the two above and uncomment below)
+# tensorflow==2.12.0
+
+# Scientific stack compatible with TF 2.12 and Py 3.9/3.10
+numpy==1.23.5
+h5py==3.8.0
+scipy==1.10.1
+pandas==1.5.3
+matplotlib==3.7.2
+seaborn==0.12.2
+scikit-learn==1.2.2
+umap-learn==0.5.5
+tqdm==4.66.4
+distinctipy==1.2.1
+logomaker==0.8
+biopython==1.76

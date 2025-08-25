@@ -1,0 +1,48 @@
+# Cross-Platform Requirements for DeepTCR
+# Choose TensorFlow based on your platform:
+
+# === TENSORFLOW OPTIONS (choose ONE) ===
+# Apple Silicon (M1/M2/M3):
+tensorflow-macos==2.12.0
+tensorflow-metal==0.8.0
+
+# Intel Mac / Linux / Windows (comment the two above and uncomment below):
+# tensorflow==2.12.0
+
+# === CORE DEPENDENCIES ===
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+h5py==3.8.0
+
+# === MACHINE LEARNING ===
+scikit-learn==1.2.2
+keras==2.12.0
+
+# === BIOINFORMATICS ===
+biopython==1.76
+
+# === VISUALIZATION ===
+matplotlib==3.7.2
+seaborn==0.12.2
+logomaker==0.8
+pillow>=10.0.0
+
+# === ANALYSIS TOOLS ===
+umap-learn==0.5.5
+networkx==3.1
+distinctipy==1.2.1
+
+# === DEVELOPMENT TOOLS ===
+jupyterlab>=4.4.0
+notebook>=7.4.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# === UTILITIES ===
+tqdm==4.66.4
+psutil>=7.0.0
+
+# === ADDITIONAL DEPENDENCIES ===
+numba>=0.60.0
+python-louvain>=0.16
