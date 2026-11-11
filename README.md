@@ -295,3 +295,13 @@ DeepTCR enables cutting-edge research in:
 **🧬 Unlock the secrets hidden in T-cell receptor data with confidence!**
 
 </div>
+
+<!-- portfolio-navigation -->
+## Repository guide
+
+- **Code and notebooks** · [setup.py](setup.py), [setup.sh](setup.sh), [ancillary_analysis](ancillary_analysis), [DeepTCR](DeepTCR), [tools](tools)
+- **Data** · [Data](Data), [GLIPH.csv](ancillary_analysis/unsupervised/GLIPH.csv), [Supertype_Data_Dict.csv](DeepTCR/functions/Supertype_Data_Dict.csv)
+- **Documentation and notes** · [DEVELOPER_SETUP_GUIDE.md](DEVELOPER_SETUP_GUIDE.md), [TEAM_SETUP_GUIDE.md](TEAM_SETUP_GUIDE.md), [TESTING_VERIFICATION.md](TESTING_VERIFICATION.md), [docs](docs)
+
+<!-- /portfolio-navigation -->
+
